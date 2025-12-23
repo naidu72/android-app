@@ -50,6 +50,19 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    
+    // For file picking and storage access
+    implementation("androidx.activity:activity-compose:1.9.3")
+    
+    // For animations
+    implementation("androidx.compose.animation:animation:1.7.6")
+    
+    // For image loading
+    implementation("io.coil-kt:coil-compose:2.7.0")
+    
+    // For data storage (SharedPreferences)
+    implementation("androidx.datastore:datastore-preferences:1.1.1")
+    
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
