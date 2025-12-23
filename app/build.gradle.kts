@@ -63,6 +63,9 @@ dependencies {
     // For data storage (SharedPreferences)
     implementation("androidx.datastore:datastore-preferences:1.1.1")
     
+    // For DocumentFile (Storage Access Framework)
+    implementation("androidx.documentfile:documentfile:1.1.0")
+    
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
